@@ -1,6 +1,7 @@
 body {
     background-color: #2d3436;
 background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+
 /* background-image: url('ok.gif');
 background-repeat: no-repeat;
 background-size: cover;
@@ -25,6 +26,8 @@ background-position: center center; */
     right: 0;
     bottom: 0;
     margin: auto;
+    /* background: radial-gradient(#125c98,black); */
+    
 }
 
 .clock .twelve {
@@ -35,6 +38,7 @@ background-position: center center; */
     left: 10px;
     right: 0;
     margin: 0 auto;
+   
 }
 .clock .six {
     position: absolute;
@@ -235,6 +239,28 @@ background-position: center center; */
       max-width: 100%;
       margin-bottom: 0%;
       padding-bottom: 0%;
+  }
+
+  @keyframes neonspark  {
+    0% {
+      text-shadow: none;
+    }
+    30% {
+      text-shadow: 0 0 30px rgba(255,0,84,0.6);
+    }
+    60% {
+      text-shadow: 0 0 30px rgba(255,0,84,0.6),
+        0 0 60px rgba(255,0,84,0.4);
+    }
+    80% {
+      text-shadow: none;
+    }
+    100% {
+      text-shadow: 0 0 30px rgba(255,0,84,0.6),
+       0 0 60px rgba(255,0,84,0.4), 
+       0 0 100px rgba(255,0,84,0.2), 
+       0 0 90px rgba(255,0,84,0.1);
+    }
   }
 
 
