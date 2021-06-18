@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    cursor: none;
+    font-family: 'Press Start 2P', cursive;
+    color: aqua;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+
+.menupage {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    z-index: 2;
+    cursor: default;
+    transition: all 0.1s ease;
+   
+}
+.instruction-btn
+{
+    color: aqua;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2em;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    border: 1px solid aqua;
+    padding: 1.5rem;
+    transition: all 0.5s ease;
+    background-color: #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.instruction-btn li{
+    font-size: 0.5em;
+    padding-top: 0.5em;
+}
+.instruction-btn h6{
+    font-size: 0.7em;
+}
+.cursor {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.target {
+    position: fixed;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    z-index: 0;
+}
+
+.score {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    opacity: 0.6;
+    color:aqua;
+    
+}
+
+.timer {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    margin: 20px;
+    font-size: 3em;
+}
+
+.highscore {
+    text-transform: uppercase;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin: 20px;
+    border: 1px solid aqua;
+    padding: 0.8em;
+    background: #000;
+}

@@ -11,6 +11,7 @@ function clearit()
 function number(val)
 {
     document.getElementById("box").value+=val;
+    
 }
 function backspace()
 {
