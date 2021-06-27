@@ -1,7 +1,7 @@
 const main=document.querySelector(".main");
 const booked=document.querySelector(".booked");
 const Remaining=document.querySelector(".Remaining");
-var totalseats= 400;
+var totalseats= 300;
 var bookedseats=0;
 for(let i=0;i<300;i++)
 {
