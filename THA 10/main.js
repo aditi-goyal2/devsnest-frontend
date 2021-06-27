@@ -19,9 +19,9 @@ for(let i=1; i<=16; i++){
     front.classList.add("front");
 
     let back=document.createElement("div");
-
+    // front.innerHTML=`<img src='./img/puzzle.png' class='img-front'>`;
     let rand=Math.floor(Math.random()*(16-i));
-
+    
     back.innerHTML=`<img src='${words[rand]}' class='img-back'>`;
     words.splice(rand, 1);
 
@@ -78,12 +78,14 @@ setInterval(() => {
         document.querySelector(".popup").style.display="flex";
         document.querySelector(".container").style.display="none";
         let h2=document.createElement("h2");
-        document.querySelector(".popup > div > h2").innerHTML="You Lose !!";
+        document.querySelector(".popup > div > h2").innerHTML=`You Lose !!`;
+        document.querySelector(".popup > div > h5").innerHTML=`Score:${score}`;
     }
     if(matches === 8){    
         document.querySelector(".popup").style.display="flex";
         document.querySelector(".container").style.display="none";
         document.querySelector(".popup > div > h2").innerHTML="You Won !!"
+        document.querySelector(".popup > div > h5").innerHTML=`Score:${score}`;
     }
 }, 100);
 

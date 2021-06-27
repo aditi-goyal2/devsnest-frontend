@@ -51,8 +51,19 @@ body {
   height:140px;
   width: 200px;
 }
+/* .img-front{
+  height:50px;
+  width: 50px;
+  position: relative;
+  top: 35%;
+} */
 #stats h2{
   color:#fff;
+}
+.popup div h5{
+ display: flex;
+ justify-content: center;
+ color: green;
 }
 #stats h2 span{
   color:#fff;
