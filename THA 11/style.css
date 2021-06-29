@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    
+    color: white;
+    /* background-image: url('bg.jpg'); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    background-color: black;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+button{
+    background-color: black;
+}
+.quiz-menupage
+{
+    font-family: 'Press Start 2P', cursive;
+   
+}
+.playbtn
+{   margin-top:2em;
+    color: aqua;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid aqua;
+    padding: 1.5rem;
+    transition: all 0.5s ease;
+}
+.playbtn:hover{
+    padding: 2rem;
+} 
+.quiz-heading
+{
+    font-family: 'Sigmar One', cursive;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 6em;
+    left: 30%;
+    top: 20%;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 1px solid aqua;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(0deg, rgba(37, 36, 36, 0.5),rgba(51, 47, 47, 0.5)) ;
+    color: aqua;
+    border-radius: 2em;
+    
+    transition: all 1s ease; 
+    }
+    .center:hover{
+        
+        top:49.5%;
+        box-shadow: 20px 05px;
+    }
+    .play_quiz{
+        display: none;
+        color: aqua;
+    }
+    .quiz-section h2
+    {
+        color: aqua;
+    }
+    .next
+    {
+        color:aqua;
+        border: 1px solid aqua;
+        padding: 1em;
+        font-size: 1em;
+        transition: all 0.5s ease;
+    }
+    .next:hover{
+        background:linear-gradient(0deg, rgba(3, 3, 3, 0.3),rgba(36, 35, 35, 0.3));
+    }
+    input{
+        margin: 1em;
+    }
+    label{
+        font-size: 1.5em;
+    }
+    .scores{
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: aliceblue;
+        border: 1px solid #fff;
+        font-size: 3em;
+        padding: 0.3em;
+        margin: 1em;
+        border-radius: 2em;
+        
+        transition: all 0.5s ease;
+    }
+  
+.quiz-end
+{
+    display: none;
+}
+.score-heading{
+    padding-left: 0.1em;
+    padding-top: 1em;
+    position: absolute;
+    top:35%;
+    left:44%;  
+    font-size: 3em; 
+    color: aqua;
+}

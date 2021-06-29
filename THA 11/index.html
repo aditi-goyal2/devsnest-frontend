@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="quiz-menupage">
+        <h1 class="quiz-heading"> ?? QUIZ ?? </h1>
+        <button class="playbtn" onclick="play();"> Play Quiz >></button>
+    </div>
+
+
+    <div class="container h-100 play_quiz">
+        <div class="scores">
+            Score : 0
+        </div>
+        <div class="center ">
+            
+            <div class="quiz-section">
+                <h2><u>
+                    Question <span class="question-number"> 1</span>:
+                </u>
+                </h2>
+                <br><br>
+                <h1 id="display-question">
+
+                </h1>
+                <form class="check_answer" name="check_answer">
+                    <input type="radio" id="optionA" name="options" value="optionA">
+                    <label for="optionA" id="option-one-label" class="optionk"></label><br>
+                    <input type="radio" id="optionB" name="options" value="optionB">
+                    <label for="optionB" id="option-two-label" class="optionk"></label><br>
+                    <input type="radio" id="optionC" name="options" value="optionC">
+                    <label for="optionC" id="option-three-label" class="optionk"></label><br>
+                    <input type="radio" id="optionD" name="options" value="optionD">
+                    <label for="optionD" id="option-four-label" class="optionk"></label><br>
+                    
+                </form>
+                <button class="next" onclick="check();">Next Question >></button>
+                
+            </div>
+            </div>
+    </div>
+
+    <div class="quiz-end">
+        <h1 class="quiz-heading">Quiz Finished</h1>
+        <h5 class="score-heading"> </h5>
+        <button class="playbtn" onclick="play();"> Play Again >></button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -26,3 +26,7 @@ for(let i=0;i<300;i++)
     })
     main.appendChild(items)
 }
+// if(item.radval===item.correctOption)
+        // {
+        //     console.log("correct");
+        // }
