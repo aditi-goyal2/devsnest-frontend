@@ -9,13 +9,13 @@
 body{
     
     color: white;
-    /* background-image: url('bg.jpg'); */
+    background-image: url('bg-2.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     
-    background-color: black;
+    background-color: linear-gradient(0deg, rgba(3, 3, 3, 0.3),rgba(36, 35, 35, 0.3));
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,7 +23,7 @@ body{
     
 }
 button{
-    background-color: black;
+    background: linear-gradient(0deg, rgba(3, 3, 3, 0.3),rgba(36, 35, 35, 0.3));
 }
 .quiz-menupage
 {
@@ -131,4 +131,8 @@ button{
     left:44%;  
     font-size: 3em; 
     color: aqua;
+}
+.ok{
+    border: 1px solid aqua;
+    padding: 1em;
 }
