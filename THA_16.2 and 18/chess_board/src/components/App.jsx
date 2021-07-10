@@ -1,4 +1,4 @@
-import Card from "../components/card";
+import Card from "./card";
 import "./style.css";
 // function Navbar(){
 //     return <h1>Navbar</h1>
