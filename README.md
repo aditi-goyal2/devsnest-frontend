@@ -17,7 +17,6 @@ THAs: https://aditi-goyal2.github.io/devsnest-frontend/
 |12|[Tha 12-ToDo app](https://aditi-goyal2.github.io/devsnest-frontend/THA%2012/index.html)|
 |13|[Tha 13-API meme search](https://aditi-goyal2.github.io/devsnest-frontend/THA%2013/index.html) |
 |14|[Tha 14-EventListener](https://aditi-goyal2.github.io/devsnest-frontend/THA%2014/index.html) |
-
 |extra|[Aim Booster](https://aditi-goyal2.github.io/devsnest-frontend/aim%20booster/demo/index.html) |
 |extra|[Brick Breaker](https://aditi-goyal2.github.io/devsnest-frontend/brick_breaker/index.html) |
 </center>
