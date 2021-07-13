@@ -10,6 +10,7 @@ function App(){
             {/* <Navbar /> */}
         {/* <h1>Hello world!</h1>
         <p>Welcome to Devsnest</p> */}
+        
         <Card />
     </div>
     );
